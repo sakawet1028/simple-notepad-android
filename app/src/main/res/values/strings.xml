@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Notepad</string>
+    <string name="notes_title">Notes</string>
+    <string name="notes_empty_title">No notes yet</string>
+    <string name="notes_empty_body">Tap the button below to write your first note.</string>
+    <string name="new_note">New note</string>
+    <string name="note_edit_title">Edit note</string>
+    <string name="note_title_label">Title</string>
+    <string name="note_content_label">Content</string>
+    <string name="save_note">Save</string>
+    <string name="navigate_back">Back</string>
+</resources>
