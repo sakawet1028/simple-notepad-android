@@ -3,34 +3,26 @@
 Beginner-friendly offline notepad app.
 
 **Package:** `com.sakawet.simplenotepad`  
-**Stack:** Kotlin, Jetpack Compose, Material 3, Navigation Compose  
+**Stack:** Kotlin, Jetpack Compose, Material 3, Navigation Compose, Room  
 **minSdk:** 26 · **Java:** 17 · **No internet required**
 
 ## Mastery Steps
 
-1. **Foundation & Project Setup** (this commit) — project, theme, two screens, navigation.
-2. **Notepad Core Features** — Room, create / read / edit / delete notes.
-3. **UI/UX & Testing** — polish empty states and basic tests.
-4. **Build, GitHub Workflow & Mobile Installation** — APK and install on a phone.
+1. Foundation & Project Setup
+2. **Notepad Core Features** (current) — Room CRUD, ViewModels, persistence
+3. UI/UX & Testing
+4. Build, GitHub Workflow & Mobile Installation
 
 ## Open the project
 
-1. Install the latest stable [Android Studio](https://developer.android.com/studio).
+1. Install the latest stable Android Studio.
 2. **File → Open** this folder.
 3. Let Gradle sync finish.
-4. Pick an emulator (API 34+) or a USB device, then Run.
+4. Run on an emulator (API 34+) or a USB device.
 
-Android Studio will generate the Gradle Wrapper if `gradlew` is missing.
+## What works now
 
-## What Step 1 can do
-
-- Launch the Notes screen (empty state).
-- Tap the FAB to open Note Edit.
-- Type a title and content (not saved yet).
-- Press Back to return to Notes.
-
-Notes are **not** stored on disk until Step 2.
-
-## What we intentionally skipped (for now)
-
-Room, ViewModel logic, Repository, Hilt, Retrofit, Firebase, internet permission.
+- Create, edit, and delete notes
+- Notes stay on the device after restart (Room)
+- Newest notes appear first
+- Title is required before save

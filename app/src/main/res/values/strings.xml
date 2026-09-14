@@ -6,8 +6,17 @@
     <string name="notes_empty_body">Tap the button below to write your first note.</string>
     <string name="new_note">New note</string>
     <string name="note_edit_title">Edit note</string>
+    <string name="note_create_title">New note</string>
     <string name="note_title_label">Title</string>
     <string name="note_content_label">Content</string>
     <string name="save_note">Save</string>
+    <string name="delete_note">Delete</string>
+    <string name="delete_note_title">Delete this note?</string>
+    <string name="delete_note_body">This cannot be undone.</string>
+    <string name="confirm_delete">Delete</string>
+    <string name="cancel">Cancel</string>
     <string name="navigate_back">Back</string>
+    <string name="error_title_required">Please enter a title.</string>
+    <string name="error_generic">Something went wrong. Try again.</string>
+    <string name="untitled_preview">Untitled</string>
 </resources>
